@@ -97,7 +97,7 @@ public  class CircularList<E> implements Iterable<E> {
 		current = head;
 	}
 	
-	public int solveJosephusProblem(CircularList<Integer> list, int k ) {
+	public static int solveJosephusProblem(CircularList<Integer> list, int k ) {
 		list.reset();
 		// Continue until one person remains
 		while (list.size() > 1) {
